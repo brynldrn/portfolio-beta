@@ -1,14 +1,22 @@
+// Node imports, do not edit directly
+@import '/node_modules/normalize.css/normalize.css';
+
 // Import from settings first
-@import './settings/grid';
 @import './settings/variables';
+@import './settings/media-queries';
 @import './settings/typography';
+// @import './settings/grid';
 
 // Import from utilities
 @import './utils/functions';
 @import './utils/mixins';
 
 // Import from common styles
+@import './common/common';
 @import './common/body';
+
 
 // Import individual components
 @import './components/app';
+@import './components/nav';
+@import './components/hero';

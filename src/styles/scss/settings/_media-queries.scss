@@ -1,0 +1,12 @@
+// Media queries
+@mixin tablet {
+  @media (min-width: #{$breakpoint-md + 1px}) and (max-width: #{$breakpoint-lg}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$breakpoint-lg + 1px}) and (max-width: 9999px) {
+    @content;
+  }
+}

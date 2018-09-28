@@ -1,0 +1,61 @@
+// Font Identifier
+@function krub($weight: 'normal', $style: 'normal') {
+  @if $weight == 'normal' {
+    @if $style == 'italic' {
+      @return 'Krub-Italic';
+    } @else {
+      @return 'Krub';
+    }
+  } @else if $weight == 'light' {
+    @if $style == 'italic' {
+      @return 'Krub-Light-Italic';
+    } @else {
+      @return 'Krub-Light';
+    }
+  } @else if $weight == 'medium' {
+    @if $style == 'italic' {
+      @return 'Krub-Medium-Italic';
+    } @else {
+      @return 'Krub-Medium';
+    }
+  } @else if $weight == 'bold' {
+    @if $style == 'italic' {
+      @return 'Krub-Bold-Italic';
+    } @else {
+      @return 'Krub-Bold';
+    }
+  }
+}
+
+@function alegreya($weight: 'normal', $style: 'normal') {
+  @if $weight == 'normal' {
+    @if $style == 'italic' {
+      @return 'AlegreyaSans-Italic';
+    } @else {
+      @return 'AlegreyaSans';
+    }
+  } @else if $weight == 'light' {
+    @if $style == 'italic' {
+      @return 'AlegreyaSans-Light-Italic';
+    } @else {
+      @return 'AlegreyaSans-Light';
+    }
+  } @else if $weight == 'medium' {
+    @if $style == 'italic' {
+      @return 'AlegreyaSans-Medium-Italic';
+    } @else {
+      @return 'AlegreyaSans-Medium';
+    }
+  } @else if $weight == 'bold' {
+    @if $style == 'italic' {
+      @return 'AlegreyaSans-Bold-Italic';
+    } @else {
+      @return 'AlegreyaSans-Bold';
+    }
+  }
+}
+
+// Z-index global function
+@function z-index($level: 'default') {
+  @return #{map-get($z-index, $level)};
+}

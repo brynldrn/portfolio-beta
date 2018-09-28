@@ -1,0 +1,41 @@
+// Breakpoints
+$breakpoint-sm: 320px;
+$breakpoint-md: 640px;
+$breakpoint-lg: 1000px;
+$breakpoint-xlg: 1400px;
+
+// Colors
+$color-white: #FFFFFF;
+$color-rich-black: #00171F;
+$color-prussian-blue: #003459;
+$color-cerulean: #007EA7;
+$color-vivid-cerulean: #00A8E8;
+
+// Z-indices
+$z-index: (
+  default: 0,
+  above: 1,
+  below: -1,
+  sticky: 8,
+  modal: 9,
+);
+
+// Gutter width by pixels
+$gutterWidth-sm: 19;
+$gutterWidth-md: 37;
+$gutterWidth-lg: 28;
+
+// Column width by pixels
+$columnWidth-sm: 18;
+$columnWidth-md: 38;
+$columnWidth-lg: 29;
+
+// Number of columns
+$columns-sm: 8;
+$columns-md: 8;
+$columns-lg: 16;
+
+// Width of left and right margin of the container
+$offset-sm: 40px;
+$offset-md: 40px;
+$offset-lg: 60px;

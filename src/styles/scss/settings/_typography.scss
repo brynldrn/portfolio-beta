@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'Krub-Medium';
+  src: url('/assets/fonts/Krub-Medium.eot');
+  src: url('/assets/fonts/Krub-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Krub-Medium.woff2') format('woff2'),
+      url('/assets/fonts/Krub-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Krub-Medium-Italic';
+  src: url('/assets/fonts/Krub-MediumItalic.eot');
+  src: url('/assets/fonts/Krub-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Krub-MediumItalic.woff2') format('woff2'),
+      url('/assets/fonts/Krub-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Krub-Italic';
+  src: url('/assets/fonts/Krub-Italic.eot');
+  src: url('/assets/fonts/Krub-Italic.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Krub-Italic.woff2') format('woff2'),
+      url('/assets/fonts/Krub-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Krub-Light';
+  src: url('/assets/fonts/Krub-Light.eot');
+  src: url('/assets/fonts/Krub-Light.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Krub-Light.woff2') format('woff2'),
+      url('/assets/fonts/Krub-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Krub-Bold-Italic';
+  src: url('/assets/fonts/Krub-BoldItalic.eot');
+  src: url('/assets/fonts/Krub-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Krub-BoldItalic.woff2') format('woff2'),
+      url('/assets/fonts/Krub-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Krub';
+  src: url('/assets/fonts/Krub-Regular.eot');
+  src: url('/assets/fonts/Krub-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Krub-Regular.woff2') format('woff2'),
+      url('/assets/fonts/Krub-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Krub-Light-Italic';
+  src: url('/assets/fonts/Krub-LightItalic.eot');
+  src: url('/assets/fonts/Krub-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Krub-LightItalic.woff2') format('woff2'),
+      url('/assets/fonts/Krub-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Krub-Bold';
+  src: url('/assets/fonts/Krub-Bold.eot');
+  src: url('/assets/fonts/Krub-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/Krub-Bold.woff2') format('woff2'),
+      url('/assets/fonts/Krub-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans';
+  src: url('/assets/fonts/AlegreyaSans-Regular.eot');
+  src: url('/assets/fonts/AlegreyaSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/AlegreyaSans-Regular.woff2') format('woff2'),
+      url('/assets/fonts/AlegreyaSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans-Light';
+  src: url('/assets/fonts/AlegreyaSans-Light.eot');
+  src: url('/assets/fonts/AlegreyaSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/AlegreyaSans-Light.woff2') format('woff2'),
+      url('/assets/fonts/AlegreyaSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans-Light-Italic';
+  src: url('/assets/fonts/AlegreyaSans-LightItalic.eot');
+  src: url('/assets/fonts/AlegreyaSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/AlegreyaSans-LightItalic.woff2') format('woff2'),
+      url('/assets/fonts/AlegreyaSans-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans-Bold-Italic';
+  src: url('/assets/fonts/AlegreyaSans-BoldItalic.eot');
+  src: url('/assets/fonts/AlegreyaSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/AlegreyaSans-BoldItalic.woff2') format('woff2'),
+      url('/assets/fonts/AlegreyaSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans-Medium-Italic';
+  src: url('/assets/fonts/AlegreyaSans-MediumItalic.eot');
+  src: url('/assets/fonts/AlegreyaSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/AlegreyaSans-MediumItalic.woff2') format('woff2'),
+      url('/assets/fonts/AlegreyaSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans-Bold';
+  src: url('/assets/fonts/AlegreyaSans-Bold.eot');
+  src: url('/assets/fonts/AlegreyaSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/AlegreyaSans-Bold.woff2') format('woff2'),
+      url('/assets/fonts/AlegreyaSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans-Italic';
+  src: url('/assets/fonts/AlegreyaSans-Italic.eot');
+  src: url('/assets/fonts/AlegreyaSans-Italic.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/AlegreyaSans-Italic.woff2') format('woff2'),
+      url('/assets/fonts/AlegreyaSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans-Medium';
+  src: url('/assets/fonts/AlegreyaSans-Medium.eot');
+  src: url('/assets/fonts/AlegreyaSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/AlegreyaSans-Medium.woff2') format('woff2'),
+      url('/assets/fonts/AlegreyaSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+// Fonts definition
+@mixin style-1--sm {
+  font-family: krub(bold);
+  font-size: 18px;
+  line-height: 18px;
+}
+
+@mixin style-1--md {
+  font-family: krub(bold);
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@mixin style-1--lg {
+  font-family: krub(bold);
+  font-size: 36px;
+  line-height: 36px;
+}
+
+@mixin style-2--sm {
+  font-family: krub(medium);
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@mixin style-2--md {
+  font-family: krub(medium);
+  font-size: 18px;
+  line-height: 18px;
+}
+
+@mixin style-2--lg {
+  font-family: krub(medium);
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@mixin style-3--sm {
+  font-family: alegreya();
+  font-size: 12px;
+  line-height: 12px;
+}
+
+@mixin style-heading {
+  @include style-1--sm;
+
+  @include tablet {
+    @include style-1--md;
+  }
+
+  @include desktop {
+    @include style-1--lg;
+  }
+}
+
+@mixin style-subheading {
+  @include style-2--sm;
+
+  @include tablet {
+    @include style-2--md;
+  }
+
+  @include desktop {
+    @include style-2--lg;
+  }
+}
+
+@mixin style-content {
+  @include style-3--sm;
+}
