@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import BodyClassName from 'react-body-classname';
 
 export default class Nav extends Component {
   state = {
@@ -23,6 +22,10 @@ export default class Nav extends Component {
     }
   }
 
+  handleRoute = (e) => {
+    e.preventDefault();
+  }
+
   render() {
     return (
       <nav className="bq-navigation">
@@ -34,16 +37,16 @@ export default class Nav extends Component {
             </div>
           </li>
           <li className="bq-navigation__item bq-navigation__item--active">
-            <a href=""><span className="icon-home"></span> Home</a>
+            <a href="home" onClick={this.handleRoute}><span className="icon-home"></span> Home</a>
           </li>
           <li className="bq-navigation__item">
-            <a href=""><span className="icon-user-tie"></span> About Me</a>
+            <a href="about" onClick={this.handleRoute}><span className="icon-user-tie"></span> About Me</a>
           </li>
           <li className="bq-navigation__item">
-            <a href=""><span className="icon-books"></span> Portfolio</a>
+            <a href="portfolio" onClick={this.handleRoute}><span className="icon-books"></span> Portfolio</a>
           </li>
           <li className="bq-navigation__item">
-            <a href=""><span className="icon-sphere"></span> Contact</a>
+            <a href="contact" onClick={this.handleRoute}><span className="icon-sphere"></span> Contact</a>
           </li>
         </ul>
         <div onClick={this.toggleMenu} className={`bq-navigation__overlay ${this.state.overlayVisible}`}></div>

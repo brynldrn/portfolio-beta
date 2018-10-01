@@ -1,0 +1,29 @@
+.bq-card {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  border: 1px solid rgba($color-rich-black, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 3px 17px -1px rgba(0,0,0,0.15);
+  margin-bottom: 20px;
+
+  &__image {
+    font-size: 100px;
+  }
+
+  &__desc {
+    @include style-content;
+    text-align: center;
+  }
+
+  &__desc-title {
+    @include style-content-title;
+    display: block;
+    margin-bottom: 10px;
+  }
+}

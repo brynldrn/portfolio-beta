@@ -1,5 +1,5 @@
-// Node imports, do not edit directly
-@import '/node_modules/normalize.css/normalize.css';
+// Import node modules
+// @import './node_modules/normalize.css/normalize';
 
 // Import from settings first
 @import './settings/variables';
@@ -20,3 +20,5 @@
 @import './components/app';
 @import './components/nav';
 @import './components/hero';
+@import './components/skills';
+@import './components/card';

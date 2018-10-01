@@ -201,6 +201,24 @@
   line-height: 12px;
 }
 
+@mixin style-4--sm {
+  font-family: alegreya(bold);
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@mixin style-4--md {
+  font-family: alegreya(bold);
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@mixin style-4--lg {
+  font-family: alegreya(bold);
+  font-size: 20px;
+  line-height: 20px;
+}
+
 @mixin style-heading {
   @include style-1--sm;
 
@@ -227,4 +245,16 @@
 
 @mixin style-content {
   @include style-3--sm;
+}
+
+@mixin style-content-title {
+  @include style-4--sm;
+
+  @include tablet {
+    @include style-4--md;
+  }
+
+  @include desktop {
+    @include style-4--lg;
+  }
 }

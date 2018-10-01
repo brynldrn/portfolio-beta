@@ -1,0 +1,20 @@
+.bq-skills {
+
+  .bq-wrapper {
+    flex-flow: column wrap;
+  }
+
+  &__heading {
+    @include style-heading;
+  }
+
+  &__card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-top: 20px;
+  }
+}

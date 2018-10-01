@@ -1,3 +1,28 @@
 .bq-hero {
-  background-image: url(http://placehold.it/1920x500);
+  background: url('https://picsum.photos/1400/700?image=992') no-repeat;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+
+  .bq-wrapper {
+    flex-flow: column wrap;
+    justify-content: flex-end;
+  }
+
+  &__heading {
+    @include style-heading;
+  
+    color: $color-white;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__subheading {
+    @include style-subheading;
+  
+    color: $color-white;
+    margin: 0;
+  }
 }
