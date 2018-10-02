@@ -1,0 +1,15 @@
+.bq-footer {
+  background-color: $color-prussian-blue;
+  color: $color-white;
+
+  &__content {
+    width: 100%;
+  }
+
+  p {
+    @include style-content;
+  
+    color: $color-white;
+    text-align: center;
+  }
+}

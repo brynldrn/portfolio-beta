@@ -2,10 +2,18 @@
   background: url('https://picsum.photos/1400/700?image=992') no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 300px;
   display: flex;
   flex-flow: row nowrap;
   position: relative;
+
+  @include mq(tablet) {
+    height: 350px;
+  }
+
+  @include mq(desktop) {
+    height: 450px;
+  }
 
   .bq-wrapper {
     flex-flow: column wrap;

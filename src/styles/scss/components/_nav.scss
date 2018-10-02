@@ -9,6 +9,12 @@
   left: 0;
   pointer-events: none;
 
+  @include mq(tablet) {
+    height: auto;
+    flex-flow: row wrap;
+    position: relative;
+  }
+
   &__control {
     display: block;
     z-index: inherit;
@@ -22,6 +28,10 @@
       color: $color-white;
       border: 0;
       margin: 0;
+    }
+
+    @include mq(tablet) {
+      display: none;
     }
   }
 
@@ -43,11 +53,25 @@
     &--visible {
       transform: translateX(0);
     }
+
+    @include mq(tablet) {
+      height: auto;
+      width: 100vw;
+      padding-top: 0;
+      transform: translateX(0);
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+    }
   }
 
   &__item {
     width: 100%;
     display: block;
+
+    @include mq(tablet) {
+      width: auto;
+    }
   }
 
   &__item a {
@@ -78,6 +102,10 @@
     &--visible {
       opacity: 1;
       pointer-events: all;
+    }
+
+    @include mq(tablet) {
+      display: none;
     }
   }
 }

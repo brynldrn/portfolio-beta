@@ -10,12 +10,16 @@ export default class Nav extends Component {
     overlayVisible: '',
   }
 
+  checkWidth = () => {
+    return window.outerWidth >= 640;
+  }
+
   toggleMenu = () => {
     if ( this.state.menuClass === 'icon-menu' ) {
       this.setState({ menuClass: 'icon-cross' });
       this.setState({ menuVisible: 'bq-navigation__menu--visible' });
       this.setState({ overlayVisible: 'bq-navigation__overlay--visible' });
-      this.setState({ bodyClass: 'no-scroll' });
+      this.setState({ bodyClass: this.checkWidth ? '' : 'no-scroll' });
     } else {
       this.setState({ menuClass: 'icon-menu' });
       this.setState({ menuVisible: '' });

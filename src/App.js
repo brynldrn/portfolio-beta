@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/contact" exact component={Contact} />
             <Redirect to="/home" />
           </Switch>
+          <Footer />
         </Fragment>
       </BrowserRouter>
     );

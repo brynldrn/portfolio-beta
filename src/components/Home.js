@@ -1,14 +1,14 @@
-import React, { Component, Fragment } from 'react'
+import React, { Fragment } from 'react';
 import Hero from './Hero';
 import Skills from './Skills';
 
-export default class Home extends Component {
-  render() {
-    return (
-      <Fragment>
-        <Hero />
-        <Skills />
-      </Fragment>
-    )
-  }
-}
+const Home = () => {
+  return (
+    <Fragment>
+      <Hero />
+      <Skills />
+    </Fragment>
+  );
+};
+
+export default Home;
