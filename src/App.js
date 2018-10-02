@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 // import logo from './logo.svg';
 import Home from './components/Home';
 import Nav from './components/Nav';
@@ -14,10 +14,11 @@ class App extends Component {
         <Fragment>
           <Nav />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/home" exact component={Home} />
             <Route path="/about" exact component={About} />
             <Route path="/portfolio" exact component={Portfolio} />
             <Route path="/contact" exact component={Contact} />
+            <Redirect to="/home" />
           </Switch>
         </Fragment>
       </BrowserRouter>

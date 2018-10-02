@@ -1,7 +1,8 @@
 .bq-hero {
   background: url('https://picsum.photos/1400/700?image=992') no-repeat;
   background-size: cover;
-  height: 200px;
+  background-position: center;
+  height: 100vh;
   display: flex;
   flex-flow: row nowrap;
   position: relative;

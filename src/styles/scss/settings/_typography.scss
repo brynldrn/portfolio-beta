@@ -222,11 +222,11 @@
 @mixin style-heading {
   @include style-1--sm;
 
-  @include tablet {
+  @include mq(tablet) {
     @include style-1--md;
   }
 
-  @include desktop {
+  @include mq(desktop) {
     @include style-1--lg;
   }
 }
@@ -234,11 +234,11 @@
 @mixin style-subheading {
   @include style-2--sm;
 
-  @include tablet {
+  @include mq(tablet) {
     @include style-2--md;
   }
 
-  @include desktop {
+  @include mq(desktop) {
     @include style-2--lg;
   }
 }
@@ -250,11 +250,11 @@
 @mixin style-content-title {
   @include style-4--sm;
 
-  @include tablet {
+  @include mq(tablet) {
     @include style-4--md;
   }
 
-  @include desktop {
+  @include mq(desktop) {
     @include style-4--lg;
   }
 }

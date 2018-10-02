@@ -1,11 +1,17 @@
-// Import node modules
-// @import './node_modules/normalize.css/normalize';
-
-// Import from settings first
+// Import all variables first
 @import './settings/variables';
-@import './settings/media-queries';
+
+// Import node modules
+// Don't edit directly
+@import '../../../node_modules/normalize.css/normalize';
+@import '../../../node_modules/devicon/devicon.min.css';
+@import '../../../node_modules/sass-mq/mq';
+
+// Import font packs
+@import '../css/iconmoon.css';
+
+// Import from settings
 @import './settings/typography';
-// @import './settings/grid';
 
 // Import from utilities
 @import './utils/functions';

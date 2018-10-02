@@ -4,6 +4,16 @@ $breakpoint-md: 640px;
 $breakpoint-lg: 1000px;
 $breakpoint-xlg: 1400px;
 
+// MQ-SASS Settings
+$mq-responsive: true;
+$mq-breakpoints: (
+  mobile: $breakpoint-sm,
+  tablet: $breakpoint-md,
+  desktop: $breakpoint-lg,
+  wide: $breakpoint-xlg,
+);
+$mq-static-breakpoint: desktop;
+
 // Colors
 $color-white: #FFFFFF;
 $color-rich-black: #00171F;
